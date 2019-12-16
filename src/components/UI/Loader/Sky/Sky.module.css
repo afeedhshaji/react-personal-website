@@ -1,0 +1,142 @@
+.sky {
+  position: relative;
+  animation: stars 1s infinite linear;
+}
+
+.star1 {
+  top: 100px;
+  left: 20%;
+
+  height: 100px;
+  color: wheat;
+}
+.star1:after {
+  top: 100px;
+  left: 50px;
+  animation: starBlink 2s infinite;
+}
+.star2 {
+  top: 150px;
+  left: 10%;
+}
+.star2:after {
+  top: 200px;
+  left: 10px;
+}
+.star3 {
+  top: 200px;
+  left: 70%;
+}
+.star3:after {
+  top: 50px;
+  left: 150px;
+}
+.star4 {
+  top: 500px;
+  left: 90%;
+}
+.star4:after {
+  top: 10px;
+  left: 250px;
+}
+.star5 {
+  top: 500px;
+  left: 50%;
+}
+.star5:after {
+  top: 300px;
+  left: 0px;
+}
+
+@-moz-keyframes starBlink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes starBlink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-o-keyframes starBlink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes starBlink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes stars {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(400px);
+  }
+}
+@-webkit-keyframes stars {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(400px);
+  }
+}
+@-o-keyframes stars {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(400px);
+  }
+}
+@keyframes stars {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(400px);
+  }
+}
+
+.star {
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(15deg);
+}
+.star:after,
+.star:before {
+  content: "";
+}
+.star:after {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 50%;
+}
+.star:before {
+  width: 5px;
+  height: 5px;
+  box-shadow: 500px 10px #fff;
+  position: absolute;
+  border-radius: 50%;
+}

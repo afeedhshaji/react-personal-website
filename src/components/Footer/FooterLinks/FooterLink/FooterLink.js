@@ -3,7 +3,12 @@ import classes from "./FooterLink.module.css";
 
 const FooterLink = props => {
   return (
-    <a href={props.link} target='_blank' rel='noopener noreferrer'>
+    <a
+      className={classes.hightlightLink}
+      href={props.link}
+      target='_blank'
+      rel='noopener noreferrer'
+    >
       <span className={classes.text}>{props.title}</span>
       <img
         src={require(`../../../../assets/svgs/${props.label}.svg`)}

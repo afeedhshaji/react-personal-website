@@ -1,4 +1,4 @@
-a {
+.hightlightLink {
   position: relative;
   display: inline-block;
   color: #67e4e5 !important;
@@ -9,12 +9,12 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-  a {
+  .hightlightLink {
     margin: 0 10px;
   }
 }
 
-a:after {
+.hightlightLink:after {
   position: absolute;
   top: 120%;
   left: 0;
@@ -33,13 +33,13 @@ a:after {
 }
 
 @media screen and (max-width: 850px) {
-  a:after {
+  .hightlightLink:after {
     display: none;
   }
 }
 
-a:focus:after,
-a:hover:after {
+.hightlightLink:focus:after,
+.hightlightLink:hover:after {
   height: 1px;
   border-radius: 3px;
   opacity: 1;

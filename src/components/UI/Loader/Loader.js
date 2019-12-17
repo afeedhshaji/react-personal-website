@@ -4,12 +4,8 @@ import Ironman from "./Ironman/Ironman";
 import Sky from "./Sky/Sky";
 
 const loader = props => {
-  console.log(props.show);
-  let attachedClasses = [classes.preloader];
-  attachedClasses[1] = props.show === "exiting" ? null : classes.hide;
-  console.log(attachedClasses);
   return (
-    <div className={attachedClasses.join(" ")}>
+    <div className={classes.preloader}>
       <Ironman />
       <Sky />
     </div>

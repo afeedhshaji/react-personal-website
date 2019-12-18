@@ -1,0 +1,21 @@
+.project__used__item {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  font-family: Inconsolata, monospace;
+  color: #161822;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 7px;
+  border-radius: 3px;
+  background-color: #89b9c2 !important;
+  background: 0 0;
+}
+
+.project__used__item:first-of-type {
+  margin-left: 0;
+}
+
+.project__used__item:hover {
+  background-color: #96c5cf !important;
+  cursor: pointer;
+}

@@ -1,0 +1,126 @@
+a {
+  text-decoration: none;
+  color: #67e4e5 !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.project {
+  display: flex;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.3rem;
+  background-color: #1f2233;
+  color: #67e4e5 !important;
+  box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.2);
+  justify-content: flex-start;
+  align-items: center;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in;
+  margin-bottom: 50px;
+  width: 400px;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.container {
+  max-width: 100vw !important;
+  padding: 0px !important;
+  box-sizing: border-box;
+}
+
+.project p {
+  font-size: 0.85rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.arrowLink {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-weight: 700;
+  display: inline-block;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.arrowLink:after {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  bottom: 2px;
+  margin-left: 7px;
+  content: "";
+  background-size: 100%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.arrowLink:hover {
+  color: #89b9c2 !important;
+}
+
+.continer {
+  padding: 0px;
+}
+
+.arrowLink:hover:after {
+  -webkit-transform: translateX(7px);
+  transform: translateX(7px);
+}
+
+.projectInner {
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.project:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.project__name {
+  margin-bottom: 10px;
+}
+
+.project__name a {
+  font-weight: 700;
+}
+
+.projectInner p {
+  font-size: 0.95rem;
+}
+
+.job__time {
+  font-size: 0.8rem;
+  font-family: Inconsolata, monospace;
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .job__time {
+    font-size: 0.8rem;
+  }
+}
+
+.mainHeading {
+  font-size: 40px;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

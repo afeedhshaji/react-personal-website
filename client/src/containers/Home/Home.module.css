@@ -1,0 +1,14 @@
+.centerWrap {
+  min-height: 100%;
+  width: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .centerWrap {
+    padding-top: 3rem;
+  }
+}

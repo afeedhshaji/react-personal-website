@@ -4,7 +4,6 @@ import Home from "./containers/Home/Home";
 import Layout from "./hoc/Layout/Layout";
 import { Switch, Route } from "react-router-dom";
 import ProjectBox from "./components/ProjectBox/ProjectBox";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 class App extends Component {
   render() {

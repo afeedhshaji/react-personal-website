@@ -1,6 +1,10 @@
 const express = require("express");
+const path = require("path");
 
 const app = express();
+
+const dotenv = require("dotenv");
+dotenv.config();
 
 app.get("/api/projects", (req, res) => {
   const projects = [
@@ -96,6 +100,16 @@ app.get("/api/projects", (req, res) => {
 
   res.json(projects);
 });
+
+//Serve static if in production
+
+if (process.env.NODE_ENV === "production") {
+  //Set static folder
+  app.use(express.static("client/build"));
+  app.get("*", (req, res) => {
+    res.sendFIle(path.resolve(__dirname, "client", "build", "index.html"));
+  });
+}
 
 const port = 5000;
 

@@ -10,7 +10,7 @@ app.get("/api/projects", (req, res) => {
   const projects = [
     // Array of js objects goes here which can be fetched from database.
     //Schema 
-    //{title: String, type:String, link:String, desc: String, time:String, used:String}
+    //{title: String, type:String, link:String, desc: String, time:String, used:[String]}
   ];
 
   res.json(projects);

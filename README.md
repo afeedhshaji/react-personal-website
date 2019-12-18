@@ -10,7 +10,7 @@ npm install
 npm run client-install
 ```
 
-### Run the client & server with concurrently :
+### Run the react dev server & server with concurrently :
 ``` bash
 npm run dev
 ```
@@ -20,7 +20,7 @@ npm run dev
 npm run server
 ```
 
-### Run the React client only :
+### Run the React dev server only :
 ``` bash
 npm run client
 ```

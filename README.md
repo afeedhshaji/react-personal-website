@@ -20,7 +20,7 @@ npm run dev
 npm run server
 ```
 
-### Run the React dev server only :
+### Run the react dev server only :
 ``` bash
 npm run client
 ```

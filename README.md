@@ -10,7 +10,7 @@ npm install
 npm run client-install
 ```
 
-### Run the react dev server & server with concurrently :
+### Run the react dev server & backend server with concurrently :
 ``` bash
 npm run dev
 ```

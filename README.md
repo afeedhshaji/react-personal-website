@@ -1,11 +1,28 @@
-React version of personal website. (Original website  [afeedhshaji.me](https://afeedhshaji.me))
+React version of personal website. 
 
-### Install dependancies :
-```
-npm i
+### Install dependencies for server :
+``` bash
+npm install
 ```
 
-### Run React dev server :
+### Install dependencies for client :
+``` bash
+npm run client-install
 ```
-npm start
+
+### Run the client & server with concurrently :
+``` bash
+npm run dev
 ```
+
+### Run the Express server only :
+``` bash
+npm run server
+```
+
+### Run the React client only :
+``` bash
+npm run client
+```
+
+Server runs on http://localhost:5000 and client on http://localhost:3000

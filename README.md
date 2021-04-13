@@ -10,4 +10,4 @@ npm install
 npm run start
 ```
 
-Client server is running at : http://localhost:3000
+React app is running at : http://localhost:3000

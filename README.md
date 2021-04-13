@@ -1,28 +1,13 @@
 React version of personal website. 
 
-##### Install dependencies for server :
+##### Install dependencies for client :
 ``` bash
 npm install
 ```
 
-##### Install dependencies for client :
+##### Run the react dev server :
 ``` bash
-npm run client-install
+npm run start
 ```
 
-##### Run the react dev server & backend server with concurrently :
-``` bash
-npm run dev
-```
-
-##### Run the Express server only :
-``` bash
-npm run server
-```
-
-##### Run the react dev server only :
-``` bash
-npm run client
-```
-
-Server runs on http://localhost:5000 and client on http://localhost:3000
+Client server is running at : http://localhost:3000
